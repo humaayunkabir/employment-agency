@@ -40,6 +40,10 @@ input[type="number"] {
   box-sizing: border-box;
 }
 
+.sticky-top {
+  z-index: 9999999;
+}
+
 header .top-bar {
   background-color: #ff5e14;
   padding: 10px 0;
