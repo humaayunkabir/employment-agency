@@ -1,6 +1,6 @@
 $('.slider').slick({
     centerMode: true,
-    autoplay: true,
+    autoplay: false,
     infinite: true,
     centerPadding: '0',
     slidesToShow: 1,
@@ -29,28 +29,28 @@ $('.about-barand').slick({
     slidesToShow: 5,
     slidesToScroll: 5,
     responsive: [{
-            breakpoint: 1025,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 521,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+        breakpoint: 1025,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
         }
+    },
+    {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+        }
+    },
+    {
+        breakpoint: 521,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+    }
     ]
 });
 
