@@ -1504,11 +1504,7 @@ footer .num-email {
 /*============================================
 ============== ***Responsive*** ==============
 =============================================*/
-@media only screen and (max-width: 1600px) {}
-
-@media only screen and (max-width: 1500px) {}
-
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .slider-section .slider .slider-content-3 {
     right: 45%;
   }
@@ -1518,7 +1514,7 @@ footer .num-email {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .slider-section .slider .slider-content-3 {
     right: 40%;
   }
@@ -1528,13 +1524,38 @@ footer .num-email {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .slider-section .slider .slider-content-3 {
-    right: 35%;
+    right: 37%;
   }
 
   .slider-section .slider .slider-content-2 {
-    left: 35%;
+    left: 37%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .slider-section .slider .slider-content-3 {
+    right: 32%;
+  }
+
+  .slider-section .slider .slider-content-2 {
+    left: 32%;
+  }
+
+  .slider-section .slider img {
+    height: 680px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .slider-section .slider .slider-content-3 {
+    right: 25%;
+  }
+
+  .slider-section .slider .slider-content-2 {
+    left: 25%;
   }
 
   .slider-section .slider-content .heading {
@@ -1545,11 +1566,11 @@ footer .num-email {
 
 @media only screen and (max-width: 1100px) {
   .slider-section .slider .slider-content-3 {
-    right: 30%;
+    right: 20%;
   }
 
   .slider-section .slider .slider-content-2 {
-    left: 30%;
+    left: 20%;
   }
 
   .slider-section .slider-content .heading {
@@ -1606,7 +1627,7 @@ footer .num-email {
   }
 
   .slider-section .slider img {
-    height: 650px;
+    height: 620px;
   }
 
   .slider-section .slider .slider-content {
@@ -1619,10 +1640,12 @@ footer .num-email {
 
   .slider-section .slider-content .heading {
     margin: 0 auto;
+    max-width: 500px;
   }
 
   .slider-section .slider-content .slider-paragraph {
     margin: 25px auto;
+    max-width: 430px;
   }
 
   .services-section .service-main .row-d {
@@ -1685,6 +1708,11 @@ footer .num-email {
     padding: 50px 15px;
   }
 
+  .slider-section .slider-content .heading {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
   footer .copyright p {
     padding: 1.5em 0;
   }
@@ -1707,8 +1735,46 @@ footer .num-email {
 }
 
 @media only screen and (max-width: 767px) {
+  .about-section {
+    padding: 70px 0;
+  }
+
+  .services-section {
+    padding: 70px 0;
+  }
+
+  .business-service {
+    padding-bottom: 70px;
+  }
+
+  .google-map {
+    padding: 70px 0;
+  }
+
+  .news-media {
+    padding: 70px 0;
+  }
+
+  #about-us .modern-machines-section {
+    padding-bottom: 70px;
+  }
+
+  #service .business-service {
+    padding-top: 70px;
+  }
+
+  .contact-form .container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
   .services-section .modal-content {
     width: 100%;
+  }
+
+  .navbar .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   header .top-bar .container {
@@ -1737,6 +1803,17 @@ footer .num-email {
     margin-right: 12px;
   }
 
+  .slider-section .slider-content .heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .slider-section .slider-content .slider-paragraph {
+    max-width: 290px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
   .provide-section .heading {
     font-size: 25px;
     line-height: 30px;
@@ -1746,6 +1823,10 @@ footer .num-email {
 
   .slider-section .slider img {
     height: 500px;
+  }
+
+  .slider-section .slider .slick-arrow {
+    display: none !important;
   }
 
   .services-section .service-main .row-d {
@@ -1758,10 +1839,14 @@ footer .num-email {
 
   .modern-machines-section .row-d {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 380px;
+    margin: 0 auto;
   }
 
   .business-service .row-d {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 380px;
+    margin: 0 auto;
   }
 
   .brands-client-proects .row-d {
@@ -1813,6 +1898,8 @@ footer .num-email {
 
   .news-media .row-d {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 380px;
+    margin: 0 auto;
   }
 
   footer .footer-main {
@@ -1854,8 +1941,29 @@ footer .num-email {
     padding: 25px;
   }
 
+  header nav .navbar-brand .logo {
+    height: 60px;
+  }
+
   .contact-form .container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .slider-section .slider-content .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider-section .slider-content .btn-group .btn-bg {
+    margin: 0;
+    margin-bottom: 15px !important;
+  }
+
+  .slider-section .slider-content .btn-group .btn {
+    max-width: 135px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 6px 10px;
   }
 }
